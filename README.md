@@ -53,11 +53,13 @@ For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These librari
 
 For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing: 
 
+  ```
   - conda install gensim
   - conda install nltk
   - conda install re
   - conda install pprint
   - conda install -c conda-forage spacy
+  ```
 
 After installing all the libraries, once you launch the notebook, you should be able to run each cell in the notebook by pressting the "Restart and Run All" button or you can run each cell one at a time by pressing the "Run" button.
 
