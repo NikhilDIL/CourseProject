@@ -1,7 +1,12 @@
 # CS 410 CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview.
-## 1. An overview of the function of the code (i.e., what it does and what it can be used for).
+## Table of Contents
+- [1. An overview of the function of the code](# 1. An overview of the function of the code (i.e., what it does and what it can be used for)) 
+- [2. Documentation of how the software is implemented](# 2. Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement)
+- [3. Documentation of the usage of the software](# 3. Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run the software, whichever is applicable)
+- [4. Brief description of the contribution of each team member](# 4. Brief description of the contribution of each team member in case of a multi-person team)
+
+## 1. An overview of the function of the code (i.e., what it does and what it can be used for)
 
 We chose to reproduce the first experiement of the paper, Minging Causal Topics in Text Data: Iterative Topic Modeling with Time Series Feedback, which is where the authors of the paper examine the 2000 U.S. Presidential Election. We do this by:
 
@@ -11,7 +16,7 @@ We chose to reproduce the first experiement of the paper, Minging Causal Topics 
 
 What we implemented can be used to find the causal relationships between text data and non-text data, between media coverage and public opinion. Thus, the code can potentially be modified in order to identify target paragraphs for topics not relating to the 2000 U.S. Presidential Election and can be used for things such as measuring the public's response to climate change, corona virus, as well as other issues. 
 
-## 2. Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement.
+## 2. Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement
 
 - For the Time Series Prices data, we converted the data that we found online on this site into a CSV file which we read using pandas.
 
@@ -38,7 +43,7 @@ What we implemented can be used to find the causal relationships between text da
 
   - Sixth, we repeat steps two through five until the stopping criteria. Once we reach the stopping criteria, the process stops and the function outputs CT, which is the output causal topic list
 
-## 3. Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run the software, whichever is applicable.
+## 3. Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run the software, whichever is applicable
 
 This project was run using python version 3.8.
 
@@ -56,7 +61,7 @@ For the Iterative Topic Modeling Framework with Time Series Feedback function, w
 
 After installing all the libraries, once you launch the notebook, you should be able to run each cell in the notebook by pressting the "Restart and Run All" button or you can run each cell one at a time by pressing the "Run" button.
 
-## 4. Brief description of the contribution of each team member in case of a multi-person team. 
+## 4. Brief description of the contribution of each team member in case of a multi-person team 
 
 In general, we worked together as a group on a call and gave each other advice and helped when possible whether it be by looking at the current issue, clarify what the Iterative Topic Modeling Framework with Time Series Feedback function is doing, or Googling resources such as libraries to use. Down below is what we were tasked with, but we worked on things outside of what we were in charge of.
 
