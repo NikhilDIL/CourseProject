@@ -51,7 +51,7 @@ Make sure you have access to Jupyter Notebook either by installing Jupyter by fo
 
 For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included in python.
 
-For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing: 
+For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing the following commands in the command prompt (the one we used was the Anaconda Prompt): 
 
   ```
   - conda install gensim
