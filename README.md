@@ -50,7 +50,7 @@ This project was run using python version 3.8.
 
 Make sure you have access to Jupyter Notebook either by installing Jupyter by following the directions at this [link](https://jupyter.org/install) or by installing Anaconda by following the directions at this [link](https://docs.anaconda.com/anaconda/install/)
 
-For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included in python.
+For parsing, we use the libraries: os, tarfile, xml.dom.minidom, pandas, xml.etree. These libraries should already be included in python.
 
 For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing the following commands in the command prompt (the one we used was the Anaconda Prompt): 
 
