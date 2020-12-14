@@ -42,6 +42,8 @@ This is the part that uses the feedback signals and guides LDA to form topics th
 
 This project was run using python version 3.8.
 
+Make sure you have access to Jupyter Notebook either by installing Jupyter by following the directions at this [link](https://jupyter.org/install) or by installing Anaconda by following the directions at this [link](https://docs.anaconda.com/anaconda/install/)
+
 For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included.
 
 For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing: 
@@ -52,7 +54,7 @@ For the Iterative Topic Modeling Framework with Time Series Feedback function, w
   - conda install pprint
   - conda install -c conda-forage spacy
 
-After installing all the libraries, you should be able to run each cell in the notebook.
+After installing all the libraries, once you launch the notebook, you should be able to run each cell in the notebook by pressting the Restart and Run All button or you can run each cell one at a time.
 
 ## 4. Brief description of the contribution of each team member in case of a multi-person team. 
 
