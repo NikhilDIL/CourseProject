@@ -9,7 +9,7 @@
 
 ## 1. An overview of the function of the code (i.e., what it does and what it can be used for) <a name="part1"></a>
 
-We chose to reproduce the first experiement of the paper, Minging Causal Topics in Text Data: Iterative Topic Modeling with Time Series Feedback, which is where the authors of the paper examine the 2000 U.S. Presidential Election. We do this by:
+We chose to reproduce the first experiement of the paper, Mining Causal Topics in Text Data: Iterative Topic Modeling with Time Series Feedback, which is where the authors of the paper examine the 2000 U.S. Presidential Election. We do this by:
 
 - First, we parse through both the Time Series Prices data, which was from the Iowa Electronic Markets(IRM) Time Series Data, as well as the NYT_Corpus data. Then we start implementing the Iterative Topic Modeling Framework with Time Series Feedback as explained in the paper. 
 
