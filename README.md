@@ -1,11 +1,16 @@
 # CS 410 CourseProject
 
 ## Table of Contents
-- [1. An overview of the function of the code](#part1) 
-- [2. Documentation of how the software is implemented](#part2)
-- [3. Documentation of the usage of the software](#part3)
-- [4. Brief description of the contribution of each team member](#part4)
-- [5. References](#part5)
+- [1. Project Video](#part0)
+- [2. An overview of the function of the code](#part1) 
+- [3. Documentation of how the software is implemented](#part2)
+- [4. Documentation of the usage of the software](#part3)
+- [5. Brief description of the contribution of each team member](#part4)
+- [6. References](#part5)
+
+## Project Video <a name="part0"></a>
+
+[Project Video](https://youtu.be/HlMRFgYXJd0)
 
 ## 1. An overview of the function of the code (i.e., what it does and what it can be used for) <a name="part1"></a>
 
