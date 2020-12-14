@@ -29,12 +29,12 @@ What we implemented can be used to find the causal relationships between text da
 
   - Fourth, we define a prior on the topic model parameters using significant terms and their values
     
-      - First, we need to separate the positive valued terms from the negative valued terms. We can ignore terms with values less than 10%
+    - First, we need to separate the positive valued terms from the negative valued terms. We can ignore terms with values less than 10%
     
-      - Then, we can assign the prior probability proportions according to the significance levels
+    - Then, we can assign the prior probability proportions according to the significance levels
     
   - Fifth, we use the prior from step 4 to apply LDA to D 
-This is the part that uses the feedback signals and guides LDA to form topics that better correlate with the time series
+    - This is the part that uses the feedback signals and guides LDA to form topics that better correlate with the time series
 
   - Sixth, we repeat steps two through five until the stopping criteria. Once we reach the stopping criteria, the process stops and the function outputs CT, which is the output causal topic list
 
@@ -44,7 +44,7 @@ This project was run using python version 3.8.
 
 Make sure you have access to Jupyter Notebook either by installing Jupyter by following the directions at this [link](https://jupyter.org/install) or by installing Anaconda by following the directions at this [link](https://docs.anaconda.com/anaconda/install/)
 
-For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included.
+For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included in python.
 
 For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing: 
 
@@ -54,7 +54,7 @@ For the Iterative Topic Modeling Framework with Time Series Feedback function, w
   - conda install pprint
   - conda install -c conda-forage spacy
 
-After installing all the libraries, once you launch the notebook, you should be able to run each cell in the notebook by pressting the Restart and Run All button or you can run each cell one at a time.
+After installing all the libraries, once you launch the notebook, you should be able to run each cell in the notebook by pressting the "Restart and Run All" button or you can run each cell one at a time by pressing the "Run" button.
 
 ## 4. Brief description of the contribution of each team member in case of a multi-person team. 
 
