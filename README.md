@@ -5,6 +5,7 @@
 - [2. Documentation of how the software is implemented](#part2)
 - [3. Documentation of the usage of the software](#part3)
 - [4. Brief description of the contribution of each team member](#part4)
+- [5. References](#part5)
 
 ## 1. An overview of the function of the code (i.e., what it does and what it can be used for) <a name="part1"></a>
 
@@ -79,4 +80,10 @@ In general, we worked together as a group on a call and gave each other advice a
 - Jiahua He (jiahuah2)
   - In charge of parsing data, worked on the presentation, helped when asked, did tasks assigned to me
 
-  
+## 5. References <a name="part5"></a>
+
+- [Topic Modeling with Gensim (Python)](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/)
+
+- [Topic Distribution](https://stackoverflow.com/questions/20984841/topic-distribution-how-do-we-see-which-document-belong-to-which-topic-after-doi)
+
+- [statsmodel documentation](https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.grangercausalitytests.html)
