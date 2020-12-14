@@ -3,9 +3,13 @@
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview.
 ## 1. An overview of the function of the code (i.e., what it does and what it can be used for).
 
-- First, we parse through both the Time Series Prices data as well as the NYT_Corpus data. Then we start implementing the Iterative Topic Modeling Framework with Time Series Feedback as explained in the paper. 
+We chose to reproduce the first experiement of the paper, Minging Causal Topics in Text Data: Iterative Topic Modeling with Time Series Feedback, which is where the authors of the paper examine the 2000 U.S. Presidential Election. We do this by:
+
+- First, we parse through both the Time Series Prices data, which was from the Iowa Electronic Markets(IRM) Time Series Data, as well as the NYT_Corpus data. Then we start implementing the Iterative Topic Modeling Framework with Time Series Feedback as explained in the paper. 
 
 - Using this data we are able to implement a general text mining framework for discovering causal topics from text by combining the probabilistic topic model with time series causal analysis to discover topics that are semantically coherent as well as correlated with the time series data. By iterating through the data, we can refine the topics which increase the correlation of the topics with the time series. We can use this function in order to analyze textual topics in conjunction with external time series variables such as stocks
+
+What we implemented can be used to find the causal relationships between text data and non-text data, between media coverage and public opinion. Thus, the code can potentially be modified in order to identify target paragraphs for topics not relating to the 2000 U.S. Presidential Election and can be used for things such as measuring the public's response to climate change, corona virus, as well as other issues. 
 
 ## 2. Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement.
 
@@ -36,6 +40,8 @@ This is the part that uses the feedback signals and guides LDA to form topics th
 
 ## 3. Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run the software, whichever is applicable.
 
+This project was run using python version 3.8.
+
 For parsing, we use the libraries: os, tarfile, pandas, xml.etree. These libraries should already be included.
 
 For the Iterative Topic Modeling Framework with Time Series Feedback function, we use the libraries: gensim, nltk, re, pprint, spacy. To use these libraries, you need to install them which you can do by doing: 
@@ -45,6 +51,8 @@ For the Iterative Topic Modeling Framework with Time Series Feedback function, w
   - conda install re
   - conda install pprint
   - conda install -c conda-forage spacy
+
+After installing all the libraries, you should be able to run each cell in the notebook.
 
 ## 4. Brief description of the contribution of each team member in case of a multi-person team. 
 
